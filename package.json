@@ -1,0 +1,26 @@
+{
+    "name": "version-compatibility",
+    "version": "0.0.1",
+    "author": "Def Method <bunchofbuzzards@gmail.com>",
+    "description": "Quickly determine which module versions are compatible with a system version.",
+    "preferGlobal": "false",
+    "main": "./lib/versionCompatibility.js",
+    "scripts": {
+        "test": "make test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/defmethod/version-compatibility.git"
+    },
+    "dependencies": {
+        "underscore": "1.x",
+        "semver": "2.x"
+    },
+    "devDependencies": {
+        "sinon": "1.7.3",
+        "mocha"    :  "1.12.x",
+        "should" :  "1.2.x",
+        "rewire": "1.x"
+    },
+    "license": "MIT"
+}
