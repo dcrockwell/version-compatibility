@@ -10,7 +10,8 @@ allows you to quickly determine compatibility between the two sets of version nu
 ```javascript
 var VersionCompatibility = require('version-compatibility');
 
-// Module versions on the left; their corresponding system compatibility ranges on the right.
+// Module versions on the left
+// Corresponding system compatibility ranges on the right
 var compatibilityMatrix = {
     '1.0.0': '2.4.x',
     '1.1.0': '2.4.x',
