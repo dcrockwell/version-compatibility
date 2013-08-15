@@ -38,7 +38,13 @@ allows you to quickly determine compatibility between the two sets of version nu
     versions.recommendedFor('3.0.0'); // Null
 ```
 
-## Running The Spec
+## Installation
+
+You can use the node package manager to install via:
+
+    $ npm install version-compatibility
+
+## Running Tests
 
 You can run the spec for version-compatibility via:
 
