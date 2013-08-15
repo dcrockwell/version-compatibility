@@ -5,6 +5,7 @@ allows you to quickly determine compatibility between the two sets of version nu
 
 ## Example
 
+```javascript
     var VersionCompatibility = require('version-compatibility');
 
     // The key is the module version number
@@ -33,6 +34,7 @@ allows you to quickly determine compatibility between the two sets of version nu
     versions.recommendedFor('2.4.8'); // '1.1.3'
     versions.recommendedFor('2.5.3'); // '1.2.0'
     versions.recommendedFor('3.0.0'); // Null
+```
 
 ## Running The Spec
 
