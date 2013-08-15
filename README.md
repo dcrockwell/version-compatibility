@@ -1,9 +1,9 @@
 # VersionCompatibility.js
 
-[![Build Status](https://travis-ci.org/defmethod/version-compatibility.png)](https://travis-ci.org/defmethod/version-compatibility)
-
 Takes a matrix of primary semantic version numbers that are correlated with secondary semantic version ranges then
 allows you to quickly determine compatibility between the two sets of version numbers.
+
+[![Build Status](https://travis-ci.org/defmethod/version-compatibility.png)](https://travis-ci.org/defmethod/version-compatibility)
 
 ## Example
 
